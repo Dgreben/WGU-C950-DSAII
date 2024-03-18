@@ -1,4 +1,5 @@
 # Class containing the Hash Table to be used in Main.py
+# The Hash Table has a best-case Space-Time complexity of O(1)
 class HashTable:
     def __init__(self, initial_capacity=40):
         self.table = []

@@ -50,6 +50,7 @@ def load_package_data(file, table):
 
 
 # Method to find distance between two given addresses
+# Space-Time complexity of O(n)
 def distance_between_addresses(x, y):
     distance = CSV_Distance[x][y]
     # Checks the opposite orientation if distance not found
@@ -61,6 +62,7 @@ def distance_between_addresses(x, y):
 
 
 # Method to retrieve address number from the CSV_Address file using the actual address
+# Space-Time complexity of O(n)
 def retrieve_address(address):
     for row in CSV_Address:
         if address in row[2]:
@@ -82,6 +84,7 @@ truck_three = Trucks(18, 0.0, 16, [4, 5, 6, 7, 10, 11, 12, 17, 22, 23, 24, 25, 3
 
 
 # Method to order packages for a given truck's route based off of the Nearest Neighbor Algorithm
+# Space-Time complexity of O(n^2)
 def deliver_packages(truck):
     # Add all packages into a designated, empty array
     undelivered = []
@@ -142,6 +145,7 @@ class Main:
         try:
             # The user has an option to browse all packages at the selected time, or just a specific one
             third_input = input("Please enter the Package ID or 'all' ")
+            # Space-Time complexity of O(n)
             if third_input == "all":
                 # Cycles through each package and prints out the given data
                 for packageID in range(1, 41):
@@ -150,6 +154,7 @@ class Main:
                     print(str(package))
 
             # If the user inputs a proper ID value, then they will receive the data for that package
+            # Space-Time complexity of O(1)
             elif int(third_input) in range(1, 41):
                 package = package_data_table.search(int(third_input))
                 package.update_status(convert_timedelta)

@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc5f192a-a21f-41ce-bc90-7406a9cf9812" name="Changes" comment="Create and develop the HashTable, Packages and Trucks classes to be used in Main.py">
+    <list default="true" id="fc5f192a-a21f-41ce-bc90-7406a9cf9812" name="Changes" comment="Design and integrate the required processes for efficiently delivering packages in Main.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HashTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/HashTable.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages.py" beforeDir="false" afterPath="$PROJECT_DIR$/Packages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trucks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trucks.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709866634956</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Design and integrate the required processes for efficiently delivering packages in Main.py">
+      <option name="closed" value="true" />
+      <created>1710448293996</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710448293996</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -126,6 +133,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add CSV files built from the provided Excel documents" />
     <MESSAGE value="Create and develop the HashTable, Packages and Trucks classes to be used in Main.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create and develop the HashTable, Packages and Trucks classes to be used in Main.py" />
+    <MESSAGE value="Design and integrate the required processes for efficiently delivering packages in Main.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Design and integrate the required processes for efficiently delivering packages in Main.py" />
   </component>
 </project>
